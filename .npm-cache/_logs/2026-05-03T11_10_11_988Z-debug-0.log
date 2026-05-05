@@ -1,0 +1,49 @@
+0 verbose cli D:\applications\node\node.exe D:\applications\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:D:\applications\node\node_modules\npm\npmrc
+4 silly config load:file:E:\school\college\subject\cs\iv\final project\.npmrc
+5 silly config load:file:C:\Users\Pt_\.npmrc
+6 silly config load:file:C:\Users\Pt_\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:e:\school\college\subject\cs\iv\final project\.npm-cache\_logs\2026-05-03T11_10_11_988Z-
+10 verbose logfile e:\school\college\subject\cs\iv\final project\.npm-cache\_logs\2026-05-03T11_10_11_988Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ECONNREFUSED
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest d3@^7.9.0
+16 silly packumentCache full:https://registry.npmjs.org/d3 cache-miss
+17 silly fetch manifest next@^14.2.5
+18 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+19 silly fetch manifest react@^18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 silly fetch manifest react-dom@^18.3.1
+22 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+23 silly placeDep ROOT d3@ OK for: chicago-crime-story@1.0.0 want: ^7.9.0
+24 silly placeDep ROOT next@ OK for: chicago-crime-story@1.0.0 want: ^14.2.5
+25 silly placeDep ROOT react@ OK for: chicago-crime-story@1.0.0 want: ^18.3.1
+26 silly placeDep ROOT react-dom@ OK for: chicago-crime-story@1.0.0 want: ^18.3.1
+27 verbose stack Error: request to https://registry.npmjs.org/d3 failed: cache mode is 'only-if-cached' but no cached response is available.
+27 verbose stack     at cacheFetch (D:\applications\node\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+27 verbose stack     at async fetch (D:\applications\node\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+27 verbose stack     at async RegistryFetcher.packument (D:\applications\node\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+27 verbose stack     at async RegistryFetcher.manifest (D:\applications\node\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+27 verbose stack     at async #fetchManifest (D:\applications\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1227:20)
+27 verbose stack     at async #nodeFromEdge (D:\applications\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1061:19)
+27 verbose stack     at async #buildDepStep (D:\applications\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:917:11)
+27 verbose stack     at async Arborist.buildIdealTree (D:\applications\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:170:7)
+27 verbose stack     at async Promise.all (index 1)
+27 verbose stack     at async Arborist.reify (D:\applications\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:110:5)
+28 error code ENOTCACHED
+29 error request to https://registry.npmjs.org/d3 failed: cache mode is 'only-if-cached' but no cached response is available.
+30 silly unfinished npm timer reify 1777806626524
+31 silly unfinished npm timer reify:loadTrees 1777806626525
+32 verbose cwd E:\school\college\subject\cs\iv\final project
+33 verbose os Windows_NT 10.0.19045
+34 verbose node v24.14.1
+35 verbose npm  v11.11.0
+36 verbose exit 1
+37 verbose code 1
+38 error A complete log of this run can be found in: e:\school\college\subject\cs\iv\final project\.npm-cache\_logs\2026-05-03T11_10_11_988Z-debug-0.log

@@ -1,0 +1,374 @@
+﻿{
+    "source":  "City of Chicago Crimes - 2025",
+    "generatedAt":  "2026-05-03T19:00:06",
+    "totalRecords":  237074,
+    "mappedRecords":  235663,
+    "arrestRecords":  37951,
+    "domesticRecords":  45145,
+    "months":  [
+                   "Jan",
+                   "Feb",
+                   "Mar",
+                   "Apr",
+                   "May",
+                   "Jun",
+                   "Jul",
+                   "Aug",
+                   "Sep",
+                   "Oct",
+                   "Nov",
+                   "Dec"
+               ],
+    "topCrimeTypes":  [
+                          {
+                              "crimeType":  "THEFT",
+                              "count":  55113
+                          },
+                          {
+                              "crimeType":  "BATTERY",
+                              "count":  42559
+                          },
+                          {
+                              "crimeType":  "CRIMINAL DAMAGE",
+                              "count":  26218
+                          },
+                          {
+                              "crimeType":  "ASSAULT",
+                              "count":  21577
+                          },
+                          {
+                              "crimeType":  "MOTOR VEHICLE THEFT",
+                              "count":  17239
+                          },
+                          {
+                              "crimeType":  "OTHER OFFENSE",
+                              "count":  16790
+                          },
+                          {
+                              "crimeType":  "DECEPTIVE PRACTICE",
+                              "count":  14968
+                          },
+                          {
+                              "crimeType":  "BURGLARY",
+                              "count":  9727
+                          },
+                          {
+                              "crimeType":  "NARCOTICS",
+                              "count":  7417
+                          },
+                          {
+                              "crimeType":  "ROBBERY",
+                              "count":  5810
+                          }
+                      ],
+    "topLocations":  [
+                         {
+                             "location":  "STREET",
+                             "count":  62290
+                         },
+                         {
+                             "location":  "APARTMENT",
+                             "count":  46569
+                         },
+                         {
+                             "location":  "RESIDENCE",
+                             "count":  28241
+                         },
+                         {
+                             "location":  "SIDEWALK",
+                             "count":  12031
+                         },
+                         {
+                             "location":  "SMALL RETAIL STORE",
+                             "count":  9015
+                         },
+                         {
+                             "location":  "PARKING LOT / GARAGE (NON RESIDENTIAL)",
+                             "count":  8372
+                         }
+                     ],
+    "districtSummary":  [
+                            {
+                                "district":  "001",
+                                "count":  13693
+                            },
+                            {
+                                "district":  "002",
+                                "count":  12716
+                            },
+                            {
+                                "district":  "003",
+                                "count":  12728
+                            },
+                            {
+                                "district":  "004",
+                                "count":  13089
+                            },
+                            {
+                                "district":  "005",
+                                "count":  9280
+                            },
+                            {
+                                "district":  "006",
+                                "count":  13582
+                            },
+                            {
+                                "district":  "007",
+                                "count":  10121
+                            },
+                            {
+                                "district":  "008",
+                                "count":  15231
+                            },
+                            {
+                                "district":  "009",
+                                "count":  10484
+                            },
+                            {
+                                "district":  "010",
+                                "count":  9521
+                            },
+                            {
+                                "district":  "011",
+                                "count":  12940
+                            },
+                            {
+                                "district":  "012",
+                                "count":  14905
+                            },
+                            {
+                                "district":  "014",
+                                "count":  8029
+                            },
+                            {
+                                "district":  "015",
+                                "count":  7824
+                            },
+                            {
+                                "district":  "016",
+                                "count":  8094
+                            },
+                            {
+                                "district":  "017",
+                                "count":  7298
+                            },
+                            {
+                                "district":  "018",
+                                "count":  13209
+                            },
+                            {
+                                "district":  "019",
+                                "count":  12530
+                            },
+                            {
+                                "district":  "020",
+                                "count":  4995
+                            },
+                            {
+                                "district":  "022",
+                                "count":  7626
+                            },
+                            {
+                                "district":  "024",
+                                "count":  7610
+                            },
+                            {
+                                "district":  "025",
+                                "count":  11557
+                            },
+                            {
+                                "district":  "031",
+                                "count":  12
+                            }
+                        ],
+    "centroids":  [
+                      {
+                          "district":  "018",
+                          "latitude":  41.900443,
+                          "longitude":  -87.633261,
+                          "pointCount":  13137
+                      },
+                      {
+                          "district":  "016",
+                          "latitude":  41.966856,
+                          "longitude":  -87.801432,
+                          "pointCount":  8033
+                      },
+                      {
+                          "district":  "031",
+                          "latitude":  41.977666,
+                          "longitude":  -87.858938,
+                          "pointCount":  12
+                      },
+                      {
+                          "district":  "008",
+                          "latitude":  41.779452,
+                          "longitude":  -87.718409,
+                          "pointCount":  15132
+                      },
+                      {
+                          "district":  "002",
+                          "latitude":  41.809636,
+                          "longitude":  -87.608999,
+                          "pointCount":  12643
+                      },
+                      {
+                          "district":  "014",
+                          "latitude":  41.917466,
+                          "longitude":  -87.690988,
+                          "pointCount":  7971
+                      },
+                      {
+                          "district":  "017",
+                          "latitude":  41.961349,
+                          "longitude":  -87.721077,
+                          "pointCount":  7251
+                      },
+                      {
+                          "district":  "015",
+                          "latitude":  41.885131,
+                          "longitude":  -87.758982,
+                          "pointCount":  7784
+                      },
+                      {
+                          "district":  "001",
+                          "latitude":  41.872624,
+                          "longitude":  -87.628382,
+                          "pointCount":  13604
+                      },
+                      {
+                          "district":  "012",
+                          "latitude":  41.879988,
+                          "longitude":  -87.667189,
+                          "pointCount":  14816
+                      },
+                      {
+                          "district":  "003",
+                          "latitude":  41.771188,
+                          "longitude":  -87.595625,
+                          "pointCount":  12650
+                      },
+                      {
+                          "district":  "019",
+                          "latitude":  41.947392,
+                          "longitude":  -87.658298,
+                          "pointCount":  12456
+                      },
+                      {
+                          "district":  "010",
+                          "latitude":  41.853536,
+                          "longitude":  -87.712405,
+                          "pointCount":  9466
+                      },
+                      {
+                          "district":  "020",
+                          "latitude":  41.978472,
+                          "longitude":  -87.670511,
+                          "pointCount":  4960
+                      },
+                      {
+                          "district":  "004",
+                          "latitude":  41.731077,
+                          "longitude":  -87.562616,
+                          "pointCount":  13017
+                      },
+                      {
+                          "district":  "011",
+                          "latitude":  41.881634,
+                          "longitude":  -87.718317,
+                          "pointCount":  12874
+                      },
+                      {
+                          "district":  "006",
+                          "latitude":  41.745722,
+                          "longitude":  -87.631486,
+                          "pointCount":  13500
+                      },
+                      {
+                          "district":  "024",
+                          "latitude":  42.005013,
+                          "longitude":  -87.677182,
+                          "pointCount":  7565
+                      },
+                      {
+                          "district":  "022",
+                          "latitude":  41.70829,
+                          "longitude":  -87.659609,
+                          "pointCount":  7574
+                      },
+                      {
+                          "district":  "009",
+                          "latitude":  41.818294,
+                          "longitude":  -87.663807,
+                          "pointCount":  10433
+                      },
+                      {
+                          "district":  "005",
+                          "latitude":  41.687523,
+                          "longitude":  -87.621168,
+                          "pointCount":  9227
+                      },
+                      {
+                          "district":  "025",
+                          "latitude":  41.919835,
+                          "longitude":  -87.754053,
+                          "pointCount":  11495
+                      },
+                      {
+                          "district":  "007",
+                          "latitude":  41.774793,
+                          "longitude":  -87.651136,
+                          "pointCount":  10063
+                      }
+                  ],
+    "monthlySeries":  [
+                          {
+                              "month":  1,
+                              "count":  18503
+                          },
+                          {
+                              "month":  2,
+                              "count":  16526
+                          },
+                          {
+                              "month":  3,
+                              "count":  19766
+                          },
+                          {
+                              "month":  4,
+                              "count":  19644
+                          },
+                          {
+                              "month":  5,
+                              "count":  20487
+                          },
+                          {
+                              "month":  6,
+                              "count":  21105
+                          },
+                          {
+                              "month":  7,
+                              "count":  22644
+                          },
+                          {
+                              "month":  8,
+                              "count":  21316
+                          },
+                          {
+                              "month":  9,
+                              "count":  20320
+                          },
+                          {
+                              "month":  10,
+                              "count":  20948
+                          },
+                          {
+                              "month":  11,
+                              "count":  18377
+                          },
+                          {
+                              "month":  12,
+                              "count":  17438
+                          }
+                      ]
+}
